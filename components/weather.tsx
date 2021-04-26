@@ -72,7 +72,7 @@ export default function Weather({ city_name }) {
             </div>
           </div>
           <div className="pt-2">
-            <p className="font-light">気象状況</p>
+            <p className="font-light">天気</p>
             <p className="text-lg font-medium tracking-widest">{weatherData.weather[0].description}</p>
           </div>
           <div className="pt-6 pr-6">
