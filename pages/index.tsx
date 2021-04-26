@@ -3,10 +3,10 @@ import Weather from '../components/weather'
 
 export default function Home() {
   const cities = [
-    { city_name: 'Tokyo', color_name: 'blue' },
-    { city_name: 'Obihiro', color_name: 'yellow' },
-    { city_name: 'Hamamatsu', color_name: 'green' },
-    { city_name: 'Bangladesh', color_name: 'red' },
+    { city_name: 'Tokyo' },
+    { city_name: 'Obihiro' },
+    { city_name: 'Hamamatsu' },
+    { city_name: 'Bangladesh' },
   ]
 
   return (
@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="min-h-screen flex justify-center items-center flex-wrap">
         {cities.map((city, index) => (
-          <Weather key={index} city_name={city.city_name} color_name={city.color_name} />
+          <Weather key={index} city_name={city.city_name} />
         ))}
       </div>
     </div>
