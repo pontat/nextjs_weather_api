@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Weather from '../components/weather'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const cities = [
@@ -11,7 +10,7 @@ export default function Home() {
   ]
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Weather App</title>
         <link rel="icon" href="/favicon.ico" />
