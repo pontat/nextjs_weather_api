@@ -4,6 +4,7 @@ import Weather from '../components/weather'
 export default function Home() {
   const cities = [
     { city_name: 'Tokyo' },
+    { city_name: 'Kanagawa' },
     { city_name: 'Obihiro' },
     { city_name: 'Hamamatsu' },
     { city_name: 'Bangladesh' },
